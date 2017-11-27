@@ -1,0 +1,15 @@
+{
+  "name": "spanner-tests",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "createDatabase": "node ./schema"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^1.0.7",
+    "@google-cloud/spanner": "~0.8.1"
+  },
+  "engines": {
+    "node": "~8.9.1"
+  }
+}
